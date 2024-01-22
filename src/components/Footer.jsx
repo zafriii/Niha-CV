@@ -13,9 +13,6 @@ function Footer() {
     
     <div className="footer">
 
-
-
-
               <div className="info-1">
 
               <div className="social-1"> 
@@ -26,14 +23,9 @@ function Footer() {
               <div className="social-2"> 
               <CiLocationOn className='icon'/>
               <a> Mirer Moidan, Sylhet Bangladesh</a>
-              </div>
-
-
-              
+              </div>              
 
               </div>
-
-
 
               <div className="info-2">
 
@@ -48,19 +40,7 @@ function Footer() {
               <a href='https://www.linkedin.com/in/niha-zafar-7b9753292/'>linkedin.com/in/niha-zafar-7b9753292</a> <br></br> <br></br>
               </div>
 
-            
-             
-
-
-
               </div>
-
-
-
-
-
-
-
 
     </div>
     
