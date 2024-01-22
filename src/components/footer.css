@@ -59,6 +59,10 @@
         justify-content: center;
     }
 
+     .info-1{
+        margin-left: -75px;
+    }
+
     .info-2{
         margin-left: -40px;
         margin-top: 10px;
