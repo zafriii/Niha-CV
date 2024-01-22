@@ -37,10 +37,7 @@
     margin-top: 10px;
 }
 
-.social-3{
-    display: flex;
-    margin-top: 10px;
-}
+
 
 .social-4{
     display: flex;
@@ -51,10 +48,7 @@
     display: flex;
     margin-top: 10px;
 }
-.social-6{
-    display: flex;
-    margin-top: 10px;
-}
+
 
 @media (max-width:600px) {
     .footer{
@@ -111,23 +105,3 @@
 }
 
 
-/* @media (max-width:600px) {
-    .footer{
-       
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .info-1{
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-}
-
-.info-2{
-    margin-left: 8px;
-    margin-top: 10px;
-} */
