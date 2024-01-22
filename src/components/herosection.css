@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.my-info{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.my-info .edu{
+    color: brown;
+    text-decoration: 3px solid underline;
+}
+
+.date-place{
+    display: flex;
+    gap: 100px;
+    color: brown;
+    font-size: 13px;
+}
+
+.hsc li, .ssc li{
+    color: brown;
+    margin-left: 40px;
+}
+
+.work-exp h3{
+    margin-top: 50px;
+    color: brown;
+    text-decoration: 3px solid underline;
+}
+
+
+.ms-skill {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.skill-achive h3{
+color: brown;
+text-decoration: 3px solid underline;
+}
+
+.ms-skill h5{
+    background-color: rgb(179, 80, 80);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.ms-skill h5:hover{
+   transform: scale(1.2);
+   margin-left: 10px;
+}
+
+.it-skill h5:hover{
+    transform: scale(1.2);
+    margin-left: 10px;
+ }
+
+.it-skill{
+    display: flex;
+    gap: 20px;
+}
+
+.it-skill h5{
+    background-color: rgb(179, 80, 80);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+.langs{
+    display: flex;
+}
+
+.lang h3{
+    color: brown;
+   text-decoration: 3px solid underline;
+}
+
+.langs h5{
+    font-size: 15px;
+}
+
+.langs p{
+    color: brown;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.english{
+    margin-left: 40px;
+}
+
+.int1 {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.int1 h5{
+   border: 1px solid rgb(228, 123, 123);
+   padding: 5px 20px;
+   border-radius: 5px 20px;
+}
+
+.int1 h5:hover{
+  background-color: brown;
+  color: white;
+}
+
+.int2 {
+    display: flex;
+    gap: 30px;
+   
+}
+
+.int2 h5{
+    border: 1px solid rgb(228, 123, 123);
+    padding: 5px 20px;
+    border-radius: 5px 20px;
+}
+
+.int2 h5:hover{
+    background-color: brown;
+    color: white;
+  }
+
+@media (max-width:600px) {
+
+    .my-info{
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .edu-work{
+        margin-left: -120px;
+    }
+
+    
+}
+
+
+@media (max-width:430px) {
+
+    .edu-work{
+        margin-left: -50px;
+    }   
+
+    .skill-achive{
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (max-width:390px) {
+
+    .edu-work{
+        margin-left: -10px;
+    }   
+
+    .skill-achive{
+        margin-left: 2px;
+    }
+}
+
