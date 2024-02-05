@@ -23,7 +23,13 @@ function Footer() {
               <div className="social-2"> 
               <CiLocationOn className='icon'/>
               <a> Mirer Moidan, Sylhet Bangladesh</a>
-              </div>              
+              </div>     
+
+               <div className="social-3"> 
+              <FaFacebook className='icon'/>
+              <a href='https://www.facebook.com/farihazafar.niha'> facebook.com/farihazafar.niha</a>
+              </div>
+                
 
               </div>
 
@@ -38,6 +44,12 @@ function Footer() {
               <div className="social-5"> 
               <FaLinkedin className='icon'/>
               <a href='https://www.linkedin.com/in/niha-zafar-7b9753292/'>linkedin.com/in/niha-zafar-7b9753292</a> <br></br> <br></br>
+              </div>
+
+
+              <div className="social-6"> 
+              <FaInstagram className='icon'/>
+              <a href='https://instagram.com/___niha______'>instagram.com/___niha______</a>
               </div>
 
               </div>
