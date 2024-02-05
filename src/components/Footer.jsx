@@ -54,6 +54,11 @@ function Footer() {
 
               </div>
 
+
+        <div class="fb-share-button" data-href="https://my-cv-nihaa.netlify.app" data-layout="button" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://my-cv-nihaa.netlify.app" class="fb-xfbml-parse-ignore">Share Cv</a>
+        </div>
+
     </div>
     
     
