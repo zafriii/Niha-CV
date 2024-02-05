@@ -13,6 +13,9 @@ function Footer() {
     
     <div className="footer">
 
+
+              <div className="info">
+
               <div className="info-1">
 
               <div className="social-1"> 
@@ -23,15 +26,18 @@ function Footer() {
               <div className="social-2"> 
               <CiLocationOn className='icon'/>
               <a> Mirer Moidan, Sylhet Bangladesh</a>
-              </div>     
+              </div>
 
-               <div className="social-3"> 
+
+              <div className="social-3"> 
               <FaFacebook className='icon'/>
               <a href='https://www.facebook.com/farihazafar.niha'> facebook.com/farihazafar.niha</a>
               </div>
-                
+              
 
               </div>
+
+
 
               <div className="info-2">
 
@@ -43,25 +49,40 @@ function Footer() {
 
               <div className="social-5"> 
               <FaLinkedin className='icon'/>
-              <a href='https://www.linkedin.com/in/niha-zafar-7b9753292/'>linkedin.com/in/niha-zafar-7b9753292</a> <br></br> <br></br>
+              <a href='https://www.linkedin.com/in/niha-zafar-7b9753292/'>linkedin.com/in/niha-zafar-7b9753292</a> <br></br> 
               </div>
 
-
+            
               <div className="social-6"> 
               <FaInstagram className='icon'/>
               <a href='https://instagram.com/___niha______'>instagram.com/___niha______</a>
               </div>
 
+
+              </div>
+
               </div>
 
 
-        <div class="fb-share-button" data-href="https://my-cv-nihaa.netlify.app" data-layout="button" data-size="small">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://my-cv-nihaa.netlify.app" class="fb-xfbml-parse-ignore">Share Cv</a>
+
+         <div className="share">
+
+
+        <div class="share-button" data-href="https://my-cv-nihaa.netlify.app" data-layout="button" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://my-cv-nihaa.netlify.app" class="fb-xfbml-parse-ignore">Share On Fb</a>
         </div>
 
+        <div class="share-button">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://my-cv-nihaa.netlify.app=Your_CV_Summary&source=https://my-cv-nihaa.netlify.app" target="_blank">
+        Share on LinkedIn
+        </a>
+        </div>
+
+        </div>
+
+
+
     </div>
-    
-    
     </>
   )
 }
